@@ -58,3 +58,9 @@ input[type="submit"]:hover {
     padding: 1em;
     margin: 1em;
 }
+a {
+    color: #69A740;
+}
+.for-a {
+    margin-top: 10px;
+}
