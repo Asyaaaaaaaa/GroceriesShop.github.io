@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFAC9;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: calc(10px + 1.5vh);
+    text-align: center;
+}
+p {
+    text-decoration: none;
+    color: black;
+    font-size: calc(10px + 1.5vh);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9FB879;
+    border-bottom: 5px #528C2C solid;
+    padding-bottom: 10px;
+    margin: -7px -7px 0 -7px ;
+}
+.phone-col {
+    background-color: #FCD85A;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 20px;
+}
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 20px;
+}
+.logo {
+    width: 140px;
+    height: auto;
+}
+
+.welcome-text {
+    padding-top: 40px;
+    width: 54%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.welcome-text p {
+    color: #65973F;
+}
+.welcome-text h1 {
+    font-size: calc(25px + 1.5vh);
+}
+
+.advantages {
+    width: 80%;
+    margin: 0 auto;
+}
+.adv-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.adv-1 p {
+    font-weight: bold;
+    font-size: calc(15px + 1.5vh);
+    text-align: center;
+}
+.adv-1 img {
+    width: 400px;
+    height: auto;
+}
+.adv-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.adv-2 img {
+    width: 400px;
+    height: auto;
+}
+.adv-2 p {
+    font-weight: bold;
+    font-size: calc(15px + 1.5vh);
+    text-align: center;
+}
+
+.contacts {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+.bold-text {
+    font-weight: bold;
+    font-size: calc(15px + 1.5vh);
+}
+.green-text {
+    color: #65973F;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9FB879;
+    border-top: 5px #528C2C solid;
+    padding-bottom: 10px;
+    margin:  0 -7px -7px -7px ;
+
+}
