@@ -23,7 +23,7 @@ $user_id = $_SESSION['user_id'];
 <header>
     <div class="left-side">
         <img src="icon.png" class="logo">
-        <a href="index.html"> Гастроном </a>
+        <a href="main.html"> Гастроном </a>
     </div>
 
     <div class="right-side">
@@ -66,11 +66,11 @@ $user_id = $_SESSION['user_id'];
     <footer>
         <div class="left-side">
             <img src="icon.png">
-            <a href="index.html"> Гастроном </a>
+            <a href="main.html"> Гастроном </a>
         </div>
     
         <div class="right-side">
-            <a href="index2.html">Оформить карту</a>
+            <a href="index2.html">Ваша корзина</a>
             <a href="index3.html">Товары</a>
             <p> +7 999 999 99 99</p>
         </div>

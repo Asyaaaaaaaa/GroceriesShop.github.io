@@ -1,66 +1,30 @@
 <!DOCTYPE html>
 <html lang="ru">
-<meta charset="UTF-8">
-<meta http-equiv= "x-ua-compatible" content= "ie=edge">
 <head>
-<link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <style> body {font-family: Arial, sans-serif;} </style>
-    <header>
-    <div class="left-side">
-        <img src="icon.png" class="logo">
-        <a href="index.html"> Гастроном </a>
-    </div>
-
-    <div class="right-side">
-        <a href="cart.php">Ваша корзина</a>
-        <a href="products.php">Товары</a>
-        <p class="phone-col"> +7 999 999 99 99</p>
-    </div>
-    </header>
-    <main>
-
-        <div class="welcome-text">
-            <h1> Гастроном</h1>
-            <p> Магазин существует уже более 20 лет. Наши товары всегда отличаются 
-                высоким качеством и низкой ценой.</p>
-        </div>
-
-        <div class="advantages">
-            <div class="adv-1">
-                <p>Более 500 положительных отзывов </p>
-                <img src="klass.png">
-            </div>
-            <div class="adv-2">
-                <img src="card.png">
-                <p>Скидочная карта для каждого покупателя</p>
-            </div>
-        </div>
-
-        <div class="contacts">
-            <p class="bold-text">Контакты</p>
-            <div class="phone">
-                <p>Телефон:</p>
-                <p class="green-text">+7 999 999 99 99</p>
-            </div>
-            <div class="email">
-                <p>Почта:</p>
-                <p class="green-text">magazin@gmail.com</p>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <div class="left-side">
-            <img src="icon.png">
-            <a href="index.html"> Гастроном </a>
-        </div>
-    
-        <div class="right-side">
-            <a href="cart.php">Ваша корзина</a>
-            <a href="products.php">Товары</a>
-            <p> +7 999 999 99 99</p>
-        </div>
-    </footer>
+    <h2>Регистрация</h2>
+    <form action="php/register.php" method="post">
+        <label for="fullname">ФИО:</label>
+        <input type="text" id="fullname" name="fullname" required><br>
+        
+        <label for="username">Имя пользователя:</label>
+        <input type="text" id="username" name="username" required><br>
+        
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required><br>
+        
+        <label for="phone">Номер телефона:</label>
+        <input type="text" id="phone" name="phone" required><br>
+        
+        <label for="email">Электронная почта:</label>
+        <input type="email" id="email" name="email" required><br>
+        
+        <input type="submit" value="Регистрация">
+        <div class="for-a"><a href="login.html">Уже есть аккаунт</a></div>
+    </form>
 </body>
+</html>

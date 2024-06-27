@@ -22,7 +22,7 @@ if ($_SESSION['user_id'] != 1) {
 <header>
     <div class="left-side">
         <img src="icon.png" class="logo">
-        <a href="index.html"> Гастроном </a>
+        <a href="main.html"> Гастроном </a>
     </div>
 
     <div class="right-side">
